@@ -28,14 +28,14 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_gravity="center_vertical|start"
-        android:drawableLeft="@drawable/uber_badge"
         android:drawablePadding="@dimen/ub__small_padding"
         android:gravity="center_vertical|start"
         android:minHeight="@dimen/ub__ride_request_button_height"
         android:minWidth="@dimen/ub__ride_request_button_width"
         android:padding="@dimen/ub__standard_padding"
         android:text="@string/ub__ride_with_uber"
-        android:textSize="@dimen/ub__text_size"/>
+        android:textSize="@dimen/ub__text_size"
+        android:textAllCaps="false"/>
 
     <LinearLayout
         android:layout_width="wrap_content"
